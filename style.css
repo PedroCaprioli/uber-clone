@@ -1,0 +1,90 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between ;
+    padding-right: 64px;
+    padding-left: 64px;
+    max-width: calc(1408px);
+    height: 64px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.left-nav a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.right-nav{
+    display: flex;
+    gap: 5px;
+}
+
+.button-language-nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 10px 12px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    white-space: nowrap;
+    align-items: center;
+    font-weight: 500;
+}
+
+.button-language-nav svg{
+    margin-right: 12px;
+    width: 16px;
+    height: 16px;
+}
+
+.button-login{
+    background-color: white;
+    white-space: nowrap;
+    color: black;
+    padding: 10px 12px;
+    border-radius: 30px;
+    font-weight: 500;
+
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.slogan{
+    color: white;
+    padding: 64px;
+    /* max-width: 336px;
+    max-height: 384px; */
+    text-align: start;
+    word-wrap: break-word;
+}
+
+.slogan p {
+    font-size: 46px;
+    margin-bottom: 32px;
+    font-weight: bolder;
+}
+
+.register {
+    background-color: white;
+    color: black;
+}
