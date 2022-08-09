@@ -30,25 +30,126 @@
           </svg>
           PT-BR
         </button>
-        <button class="button-login">
-            Já tem uma conta?
-        </button>
+        <button class="button-login">Já tem uma conta?</button>
       </div>
     </nav>
     <main>
-        <div class="slogan">
-            <p>Dirija pelo app da Uber e aumente seus ganhos</p>
-            Dirija pelo app da Uber. Você escolhe quando quer ganhar
-        </div>
-        <div class="register">
-            Cadastre-se
-            <form method="#" action="#">
-                <label for=""><input type="radio" name="haveCar">
-            </form>
-        </div>
-    </main>
-    <footer>
+      <!-- main left -->
 
-    </footer>
+      <div class="slogan">
+        <p>Dirija pelo app da Uber e aumente seus ganhos</p>
+        Dirija pelo app da Uber. Você escolhe quando quer ganhar
+      </div>
+
+      <!-- main right -->
+
+      <div class="register">
+        <div class="text">Cadastre-se</div>
+        <form method="#" action="#">
+          <label for="have-a-car"
+            ><input type="radio" name="haveCar" /> Eu tenho um carro
+          </label>
+          <label for="i-need-a-car"
+            ><input type="radio" name="haveCar" /> Eu preciso de um carro
+          </label>
+          <div>
+            <input
+              type="text"
+              placeholder="Nome"
+              name="firstName"
+              spellcheck="false"
+              autocomplete="on"
+              inputmode="text"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Sobrenome"
+              name="lasttName"
+              spellcheck="false"
+              autocomplete="on"
+              inputmode="text"
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              placeholder="E-mail"
+              name="email"
+              spellcheck="false"
+              autocomplete="on"
+              inputmode="email"
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              placeholder="Senha"
+              name="password"
+              spellcheck="false"
+              inputmode="text"
+              autocomplete="new-password"
+            />
+            <button title="Show password" type="button">
+              <svg
+                data-baseweb="icon"
+                title="Show password text"
+                viewBox="0 0 20 20"
+                class="nl pb pc pd pe"
+              >
+                <path
+                  d="M.2 10a11 11 0 0119.6 0A11 11 0 01.2 10zm9.8 4a4 4 0 100-8 4 4 0 000 8zm0-2a2 2 0 110-4 2 2 0 010 4z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div>
+            <input
+              type="tel"
+              placeholder="Telefone"
+              name="contactInfo"
+              spellcheck="false"
+              autocomplete="on"
+              inputmode="tel"
+            />
+          </div>
+          <div>
+            <input
+              type="tel"
+              placeholder="Cidade em que quer dirigir"
+              name="city"
+              spellcheck="false"
+              autocomplete="new-password"
+              inputmode="text"
+            />
+          </div>
+          <div>
+            Ao continuar, eu concordo com os
+            <a href="#">Termos de Uso</a>
+            e afirmo que li a
+            <a href="#">Política de Privacidade</a
+            >.
+            <br />
+            <br />
+            Também concordo que a Uber ou seus representantes podem entrar em
+            contato comigo por e-mail, telefone, SMS (inclusive por meios
+            automatizados) ou WhatsApp, no endereço de e-mail ou número que eu
+            fornecer, para fins de marketing e suporte.
+          </div>
+          <div>
+            <span>
+              <button type="submit">Cadastre-se para dirigir</button>
+            </span>
+          </div>
+          <div>
+            <span>Já tem uma conta?</span>
+            <a href="#">Entrar</a>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer></footer>
   </body>
 </html>
