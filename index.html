@@ -15,142 +15,181 @@
     />
   </head>
   <body>
-    <nav>
-      <div class="left-nav">
-        <a href="#">Uber</a>
-      </div>
-      <div class="right-nav">
-        <button class="button-language-nav">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <title>Globe</title>
-            <path
-              d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5zM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1zm1.9-6.1l-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4zM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12zm3.5 6.6l1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4z"
-              fill="currentColor"
-            ></path>
-          </svg>
-          PT-BR
-        </button>
-        <button class="button-login">Já tem uma conta?</button>
-      </div>
-    </nav>
-    <main>
-      <!-- main left -->
+    <div class="container">
+      <nav>
+        <div class="left-nav">
+          <a href="#">Uber</a>
+        </div>
+        <div class="right-nav">
+          <button class="button-language-nav">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <title>Globe</title>
+              <path
+                d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5zM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1zm1.9-6.1l-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4zM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12zm3.5 6.6l1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4z"
+                fill="currentColor"
+              ></path>
+            </svg>
+            PT-BR
+          </button>
+          <button class="button-login">Já tem uma conta?</button>
+        </div>
+      </nav>
+      <main>
+        <!-- main left -->
 
-      <div class="slogan">
-        <p>Dirija pelo app da Uber e aumente seus ganhos</p>
-        <div>Dirija pelo app da Uber. Você escolhe quando quer ganhar</div>
-      </div>
+        <div class="slogan">
+          <p>Dirija pelo app da Uber e aumente seus ganhos</p>
+          <div>Dirija pelo app da Uber. Você escolhe quando quer ganhar</div>
+        </div>
 
-      <!-- main right -->
+        <!-- main right -->
 
-      <div class="register">
-        <div class="text">Cadastre-se</div>
-        <form method="#" action="#">
-          <div class="select">
-            <label for="have-a-car"
-              ><input type="radio" name="haveCar" /> Eu tenho um carro
-            </label>
-            <label for="i-need-a-car"
-              ><input type="radio" name="haveCar" /> Eu preciso de um carro
-            </label>
-          </div>
-          <div class="full-name">
-            <div>
-              <input
-                type="text"
-                placeholder="Nome"
-                name="firstName"
-                spellcheck="false"
-                autocomplete="on"
-                inputmode="text"
-              />
+        <div class="register">
+          <div class="text">Cadastre-se</div>
+          <form method="#" action="#">
+            <div class="select">
+              <label for="have-a-car"
+                ><input type="radio" name="haveCar" /> Eu tenho um carro
+              </label>
+              <label for="i-need-a-car"
+                ><input type="radio" name="haveCar" /> Eu preciso de um carro
+              </label>
             </div>
-            <div>
-              <input
-                type="text"
-                placeholder="Sobrenome"
-                name="lasttName"
-                spellcheck="false"
-                autocomplete="on"
-                inputmode="text"
-              />
+            <div class="full-name">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Nome"
+                  name="firstName"
+                  spellcheck="false"
+                  autocomplete="on"
+                  inputmode="text"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Sobrenome"
+                  name="lasttName"
+                  spellcheck="false"
+                  autocomplete="on"
+                  inputmode="text"
+                />
+              </div>
             </div>
-          </div>
-          <div class="column-form">
-            <div>
-              <input
-                type="email"
-                placeholder="E-mail"
-                name="email"
-                spellcheck="false"
-                autocomplete="on"
-                inputmode="email"
-              />
+            <div class="column-form">
+              <div>
+                <input
+                  type="email"
+                  placeholder="E-mail"
+                  name="email"
+                  spellcheck="false"
+                  autocomplete="on"
+                  inputmode="email"
+                />
+              </div>
+              <div>
+                <input
+                  type="password"
+                  placeholder="Senha"
+                  name="password"
+                  spellcheck="false"
+                  inputmode="text"
+                  autocomplete="new-password"
+                />
+              </div>
+              <div>
+                <input
+                  type="tel"
+                  placeholder="Telefone"
+                  name="contactInfo"
+                  spellcheck="false"
+                  autocomplete="on"
+                  inputmode="tel"
+                />
+              </div>
+              <div>
+                <input
+                  type="tel"
+                  placeholder="Cidade em que quer dirigir"
+                  name="city"
+                  spellcheck="false"
+                  autocomplete="new-password"
+                  inputmode="text"
+                />
+              </div>
             </div>
-            <div>
-              <input
-                type="password"
-                placeholder="Senha"
-                name="password"
-                spellcheck="false"
-                inputmode="text"
-                autocomplete="new-password"
-              />
+            <div class="footer-form">
+              Ao continuar, eu concordo com os
+              <a href="#">Termos de Uso</a>
+              e afirmo que li a
+              <a href="#">Política de Privacidade</a>.
+              <br />
+              <br />
+              Também concordo que a Uber ou seus representantes podem entrar em
+              contato comigo por e-mail, telefone, SMS (inclusive por meios
+              automatizados) ou WhatsApp, no endereço de e-mail ou número que eu
+              fornecer, para fins de marketing e suporte.
             </div>
-            <div>
-              <input
-                type="tel"
-                placeholder="Telefone"
-                name="contactInfo"
-                spellcheck="false"
-                autocomplete="on"
-                inputmode="tel"
-              />
+            <div class="botton-footer-form">
+              <div class="button-footer-form">
+                <span>
+                  <button type="submit">Cadastre-se para dirigir</button>
+                </span>
+              </div>
+              <div class="enter-footer-form">
+                <span>Já tem uma conta?</span>
+                <a href="#">Entrar</a>
+              </div>
             </div>
-            <div>
-              <input
-                type="tel"
-                placeholder="Cidade em que quer dirigir"
-                name="city"
-                spellcheck="false"
-                autocomplete="new-password"
-                inputmode="text"
-              />
-            </div>
-          </div>
-          <div class="footer-form">
-            Ao continuar, eu concordo com os
-            <a href="#">Termos de Uso</a>
-            e afirmo que li a
-            <a href="#">Política de Privacidade</a>.
-            <br />
-            <br />
-            Também concordo que a Uber ou seus representantes podem entrar em
-            contato comigo por e-mail, telefone, SMS (inclusive por meios
-            automatizados) ou WhatsApp, no endereço de e-mail ou número que eu
-            fornecer, para fins de marketing e suporte.
-          </div>
-          <div class="botton-footer-form">
-            <div class="button-footer-form">
-              <span>
-                <button type="submit">Cadastre-se para dirigir</button>
-              </span>
-            </div>
-            <div class="enter-footer-form">
-              <span>Já tem uma conta?</span>
-              <a href="#">Entrar</a>
-            </div>
-          </div>
-        </form>
-      </div>
-    </main>
+          </form>
+        </div>
+      </main>
 
-    <footer>
-      <div class="top-footer-row">
-        <a href="#">Uber</a>
-        <p> Uber Technologies Inc. | Uber do Brasil Tecnologia Ltda | Avenida Domingos Odália Filho, nº 301, Sala 1501, 15º andar, Centro, Osasco/SP - CEP 06010-067 | CNPJ: 17.895.646/0001-87 </p>
-      </div>
-      
-    </footer>
+      <footer>
+        <div class="locate-footer-row">
+          <a href="#">Uber</a>
+          <p>
+            Uber Technologies Inc. | Uber do Brasil Tecnologia Ltda | Avenida
+            Domingos Odália Filho, nº 301, Sala 1501, 15º andar, Centro,
+            Osasco/SP - CEP 06010-067 | CNPJ: 17.895.646/0001-87
+          </p>
+        </div>
+        <div class="central-footer-row">
+          <p>Acese a Central de Ajuda</p>
+        </div>
+        <div class="services-footer">
+          <div>
+            <div class="title-services">Empresa</div>
+            <a href="#">Quem somos</a>
+            <a href="#">O que oferecemos</a>
+            <a href="#">Newsroom</a>
+            <a href="#">Investidores</a>
+            <a href="#">Blog</a>
+            <a href="#">Carreiras</a>
+            <a href="#">AI</a>
+            <a href="#">Gift cards</a>
+          </div>
+          <div>
+            <div class="title-services">Produtos</div>
+            <a href="#">Viaje</a>
+            <a href="#">Dirigir</a>
+            <a href="#">Fazer entregas</a>
+            <a href="#">Faça pedidos</a>
+            <a href="#">Uber para Empresas</a>
+          </div>
+          <div>
+            <div class="title-services">Cidadania global</div>
+            <a href="#">Segurança</a>
+            <a href="#">Diversidade e inclusão</a>
+          </div>
+          <div>
+            <div class="title-services">Viaje</div>
+            <a href="#">Aeroportos</a>
+            <a href="#">Cidades</a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
