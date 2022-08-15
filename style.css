@@ -8,7 +8,6 @@
 
 body {
   background-color: black;
-  
 }
 
 nav {
@@ -49,6 +48,10 @@ nav {
   white-space: nowrap;
   align-items: center;
   font-weight: 500;
+}
+
+.button-language-nav:hover {
+  background-color: rgb(52, 52, 52);
 }
 
 .button-language-nav svg {
@@ -166,16 +169,15 @@ main {
 }
 
 .botton-footer-form button:hover {
-    background-color: #333333;
+  background-color: #333333;
 }
 
 footer {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  max-width: 1152px;
   justify-content: center;
-  align-items: center;
   padding: 64px;
 }
 
@@ -188,7 +190,7 @@ footer {
   display: flex;
   gap: 560px;
   align-items: center;
-  
+  justify-content: space-between;
 }
 
 .locate-footer-row a {
@@ -200,7 +202,7 @@ footer {
 }
 
 .locate-footer-row p {
-  color: rgb(195, 195, 195);
+  color: white;
   text-align: right;
   word-wrap: break-word;
   width: 400px;
@@ -212,7 +214,7 @@ footer {
 }
 
 .central-footer-row p {
-  color: rgb(195, 195, 195);
+  color: white;
   height: 65px;
   width: 190px;
   text-align: center;
@@ -223,32 +225,118 @@ footer {
   border-bottom: 1px solid rgb(142, 142, 142);
 }
 
-.services-footer{
-  color: rgb(195, 195, 195);
+.services-footer {
+  color: white;
   display: flex;
   flex-direction: row;
   gap: 160px;
-
+  margin-bottom: 70px;
 }
 
-.services-footer div{
-  color: rgb(195, 195, 195);
+.services-footer div {
+  color: white;
   display: flex;
   flex-direction: column;
-  
 }
 
-.title-services{
+.title-services {
   font-weight: bolder;
   margin-bottom: 20px;
   font-size: 18px;
 }
 
-.services-footer a{
-  color: rgb(195, 195, 195);
+.services-footer a {
+  color: white;
   margin-bottom: 20px;
 }
 
 .services-footer a:hover {
   color: rgb(142, 142, 142);
+}
+
+.midia-social-container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.midia-social {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.midia-social a {
+  color: white;
+padding: 5px;
+}
+
+.midia-social a:hover {
+  background-color: rgb(52, 52, 52);
+  border-radius: 100%;
+}
+
+.buttons-locate {
+  display: flex;
+}
+
+.buttons-locate svg {
+  margin-right: 12px;
+  width: 16px;
+  height: 16px;
+}
+
+.buttons-locate button {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  padding: 10px 12px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+  white-space: nowrap;
+  align-items: center;
+  font-weight: 500;
+}
+
+.buttons-locate button:hover {
+  background-color: rgb(52, 52, 52);
+}
+
+.midia-social-with-buttons-locate {
+  display: flex;
+  gap: 45px;
+}
+
+.app-store img {
+  height: 40px;
+  margin-right: 5px;
+  cursor: pointer;
+  
+}
+
+.app-store{
+  white-space: nowrap;
+}
+
+.copyright-container{
+  color: rgb(98, 98, 98);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright-right a{
+  color: rgb(98, 98, 98);
+}
+
+.copyright-right a:hover {
+  color: rgb(48, 48, 48);
+}
+
+.copyright-right{
+  display: flex;
+  gap: 30px;
 }
